@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    padding: 1rem;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 1rem;
+}
+
+.botao {
+    text-transform: none;
+    display: inline-block;
+    appearance: auto;
+    font-family: 'Big Shoulders Display';
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    text-align: center;
+    text-shadow: none;
+    margin: 1rem;
+    padding: 1px 6px;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
