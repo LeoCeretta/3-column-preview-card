@@ -5,6 +5,11 @@ body {
     font-size: 15px;
 }
 
+.icone {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
 .sedans {
     background-color: hsl(31, 77%, 52%);
     margin-top: 30px;
@@ -26,14 +31,32 @@ body {
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
     color: hsl(0, 0%, 95%);
     padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 p {
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
     padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+}
+
+#botao-sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#botao-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#botao-luxury {
+    background-color: hsl(179, 100%, 13%);
 }
 
 .botao {
@@ -41,18 +64,41 @@ p {
     display: inline-block;
     appearance: auto;
     font-family: 'Big Shoulders Display';
-    background-color: hsl(0, 0%, 95%);
     cursor: pointer;
     text-align: center;
     text-shadow: none;
-    margin: 1rem;
-    padding: 1px 6px;
+    padding: 10px 30px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    border-radius: 30px;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-size: 17px;
 }
 
+#botao-sedans:hover {
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    transition: 0.5s;
+}
+
+#botao-suvs:hover {
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    transition: 0.5s;
+}
+
+#botao-luxury:hover {
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    transition: 0.5s;
+}
 
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    margin-bottom: 5px; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
