@@ -1,3 +1,5 @@
+/* este estilo aplica-se para mobile, (min-width: 481px) and (max-width: 767px) */
+
 body {
     background-color: hsl(0, 0%, 95%);
     display: flex;
@@ -104,3 +106,20 @@ p {
     color: hsl(228, 45%, 44%); 
 }
 
+/* estes estilos aplicam-se para tablet (min-width: 768px) and (max-width: 1024px); */
+
+@media (min-width: 768px) {
+    body {
+
+    }
+}
+
+
+
+/* estes estilos aplicam-se para modelo dasktop (min-width: 1281px). */
+
+@media (min-width: 1281px) {
+    body {
+
+    }
+}
