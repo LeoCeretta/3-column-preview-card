@@ -108,9 +108,43 @@ p {
 
 /* estes estilos aplicam-se para tablet (min-width: 768px) and (max-width: 1024px); */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     body {
+        background-color: hsl(0, 0%, 95%);
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
 
+    main {
+        background-color: hsl(0, 0%, 95%);
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+    }
+
+    .icone {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    
+    .sedans {
+        background-color: hsl(31, 77%, 52%);
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .suvs {
+        background-color: hsl(184, 100%, 22%);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-bottom: 30px;
     }
 }
 
